@@ -9,8 +9,10 @@ body > header {
     background-color: blueviolet;
     padding: 16px 0;
     color: rgb(253, 253, 253);
+    border-bottom: salmon 3px solid;
 
 }
+
 header .conteiner {
     display: flex;
     align-items: center;
@@ -59,7 +61,11 @@ header time {
    /* height: 100px;*/
    width: 400px;
    height: 280px;
-
+    border: currentColor 1px solid ;
+}
+.articles article img:hover{
+    border: rgb(255, 255, 255,0.6) 10px solid;
+    transition-delay: 5s ease;
 }
 
 .articles article {
@@ -156,4 +162,17 @@ section h2 {
 }
 #politics .articles article a:hover {
     background-color: rgb(61, 66, 221);
+}
+
+#buttonhome {
+    position: fixed;
+    bottom: 5px;
+    left: 0px;
+    width: 50%;
+    margin-left: 10px;
+    color: #000000;
+}
+#buttonhome a:hover {
+    font-weight: bold;
+    font-size: 120%;
 }
