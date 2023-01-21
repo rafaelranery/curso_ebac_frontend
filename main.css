@@ -16,11 +16,16 @@ header .conteiner {
     align-items: center;
     justify-content: space-between;
 }
+header a {
+    text-decoration: none;
+    color: #000000;
+}
 header li {
     display: inline;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
     margin-left: 24px;
+    font-size: 30px;
 }
 header li a {
     color: aliceblue;
@@ -29,6 +34,14 @@ header li a {
 header li a:hover {
     color: #000000;
     text-decoration: none;
+}
+header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-size: 46px;
+}
+header time {
+    color: dimgray;
 }
 
 .conteiner {
@@ -62,15 +75,18 @@ header li a:hover {
 .articles article a {
     background-color: aquamarine;
     color: floralwhite;
-    padding: 8px;
-    display: inline-block;
+    padding: 10px;
+    display: block;
     text-decoration: none;
     font-weight: 500;
     margin-top: 8px;
+    text-align: right;
+    margin-left: 310px;
 }
 .articles article a:hover {
     text-decoration: underline;
     background-color: rgb(0, 253, 168);
+    font-weight: bold;
 }
 
 .articles article p,
@@ -128,4 +144,14 @@ section h2 {
 }
 #culture .articles article a:hover {
     background-color: rgb(102, 10, 2);
+}
+
+#politics {
+    background-color: rgba(85, 139, 174, 0.5);
+}
+#politics .articles article a {
+    background-color: rgb(1, 39, 252);
+}
+#politics .articles article a:hover {
+    background-color: rgb(61, 66, 221);
 }
