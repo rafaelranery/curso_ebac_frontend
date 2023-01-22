@@ -8,13 +8,17 @@
     src: url(fonts/Lobster/Lobster-Regular.ttf);
 }
 
+.background {
+    background: linear-gradient(to bottom, #ee9ca7, #ffdde1);}
+
 /*header*/
 body > header {
     background: linear-gradient(to right, #ef3b36, #ffffff);
     padding: 16px 0;
     color: rgb(255, 255, 255);
 }
-header .container {
+header .container,
+section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,11 +49,35 @@ header h1 {
     font-weight: 1;
 }
 
+
 /*.conteiner*/
 .container {
     max-width: 1280px;
     width: 100%;
     margin: 0 auto;
-
 }
 
+section .container {
+    align-items: flex-start;
+}
+
+#about div {
+    padding: 24px;
+}
+#about h2 {
+    font-family: "Lobster";
+    padding: 16px;
+    font-style: oblique;
+    font-size: 36px;
+    font-weight: 1;
+}
+#about p {
+    padding-bottom: 16px;
+    font-size: 20px;
+}
+
+#about div ul {
+    padding: inherit;
+    display: flex;
+    justify-content: space-between;
+}
