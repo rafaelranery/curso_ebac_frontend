@@ -81,3 +81,34 @@ section .container {
     display: flex;
     justify-content: space-between;
 }
+
+#contact .container {
+    display: block;
+}
+#contact h2 {
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+.contactmethods {
+    display: flex;
+    justify-content: space-between;
+}
+.contactmethods form input {
+    display: block;
+    width: 320px;
+    margin: 10px;
+    padding: 8px;
+}
+.contactmethods form textarea {
+    padding: 8px;
+    width: 320px;
+    height: 290px;
+    margin-left: 8px;
+}
+.contactmethods form button {
+    display: block;
+    padding: 8px;
+    width: 320px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+}
