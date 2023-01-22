@@ -7,6 +7,10 @@
     font-family: "Lobster";
     src: url(fonts/Lobster/Lobster-Regular.ttf);
 }
+@font-face {
+    font-family: "Julius Sans One";
+    src: url(fonts/Julius_Sans_One/JuliusSansOne-Regular.ttf);
+}
 
 .background {
     background: linear-gradient(to bottom, #ee9ca7, #ffdde1);}
@@ -44,9 +48,10 @@ header li a:hover {
 
 /*hn*/
 header h1 {
-    font-family: "Lobster";
+    font-family: "Julius Sans One";
     font-size: 4em;
     font-weight: 1;
+    letter-spacing: 0.4em;
 }
 
 
