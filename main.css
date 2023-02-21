@@ -57,3 +57,11 @@ li {
 li:last-child {
     border-bottom: none;
 }
+
+.done {
+    text-decoration: line-through;
+}
+
+li.done {
+    text-decoration: line-through;
+}
