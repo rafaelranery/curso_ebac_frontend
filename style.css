@@ -1,0 +1,14 @@
+header {
+    margin: 24px 12px;
+}
+
+label {
+    padding-top: 16px;
+    font-size: 125%;
+}
+
+.btn {
+    margin-top: 12px;
+    padding: 8px;
+    width: 100%;
+}
