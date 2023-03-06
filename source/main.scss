@@ -1,0 +1,21 @@
+@use 'config/reset.scss';
+@use 'header/header.scss';
+@use 'products-sect/products';
+@use 'config/val.scss';
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width: val.$tablet) {
+    .container {
+        max-width: 80%;
+    }
+}

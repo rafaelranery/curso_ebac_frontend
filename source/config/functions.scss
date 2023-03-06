@@ -1,0 +1,5 @@
+@use 'sass:math';
+
+@function pxToEm($pxLocal, $pxContext: 16px) {
+    @return math.div($pxLocal, $pxContext)+em
+};

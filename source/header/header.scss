@@ -1,0 +1,29 @@
+@use '../config/val';
+@use '../config/functions';
+
+header {
+    background-color: val.$bgColorHeader;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: functions.pxToEm(16px) 0;
+
+        .menu {
+            display: flex;
+            li {
+                font-weight: bold;
+                margin-left: functions.pxToEm(24px);
+
+                a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

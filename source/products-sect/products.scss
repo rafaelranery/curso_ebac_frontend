@@ -1,0 +1,47 @@
+@use '../config/val';
+@use '../config/functions';
+
+.products {
+    margin-top: functions.pxToEm(40px);
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+
+    .product-item img {
+        width: 100%;
+        border-radius: functions.pxToEm(16px);
+    }
+
+    .product-button {
+        display: block;
+        background-color: val.$bgColorButton;
+        color: #fff;
+        text-align: center;
+        padding: functions.pxToEm(8px) 0;
+        border-radius: functions.pxToEm(8px);
+        margin-top: functions.pxToEm(8px);
+        text-decoration: none;
+
+        &:hover {
+            background-color: lighten(val.$bgColorButton, 15%)
+        }
+    }
+}
+
+@media screen and (max-width: val.$mobile) {
+    .products {
+        display: block;
+        .product-item {
+            margin-bottom: functions.pxToEm(32px);
+        }
+    }
+}
+
+@media screen and (max-width: val.$tablet) {
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
