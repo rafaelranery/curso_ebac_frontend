@@ -1,0 +1,43 @@
+@import 'maps.less';
+@import 'reset.less';
+@import 'header.less';
+@import 'products.less';
+@import 'variables.less';
+
+body {
+    background-color: #colors[bgBodyColor];
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    max-width: @containerWidth;
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    padding: @sctPadding;
+}
+
+@media @breakpointTablet {
+    .container {
+        max-width: 80%;
+    }
+
+    .products {
+        grid-template-columns: repeat(2, 48.5%);
+        column-gap: 3%;
+    }
+}
+@media @breakpoinMobile {
+    .products {
+        display: block;
+
+        .product-item {
+            margin-bottom: 32px;
+        }
+    }
+}

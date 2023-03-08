@@ -1,0 +1,26 @@
+@import 'maps.less';
+@import 'mixins.less';
+@import 'variables.less';
+
+header {
+    background-color: #colors[bgHeaderColor] ;
+    .sticky-top();
+
+    .container {
+        .f-between-c();
+        padding: @headerContainerPadding;
+    }
+
+    .menu {
+        .d-flex();
+
+        & li {
+            font-weight: bold;
+            margin-left: @menuLiMarginL;
+            & a {
+                color: #colors[textLightColor];
+                text-decoration: none;
+            }
+        }
+    }
+}
