@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/rafaelranery/curso_ebac_frontend#readme",
   "devDependencies": {
-    "grunt": "^1.6.1"
+    "grunt": "^1.6.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "less": "^4.1.3"
   }
 }
