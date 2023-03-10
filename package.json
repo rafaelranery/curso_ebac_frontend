@@ -1,0 +1,23 @@
+{
+  "name": "curso_ebac_frontend",
+  "version": "1.0.0",
+  "description": "grunt_exercise",
+  "main": "index.js",
+  "scripts": {
+    "grunt": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaelranery/curso_ebac_frontend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rafaelranery/curso_ebac_frontend/issues"
+  },
+  "homepage": "https://github.com/rafaelranery/curso_ebac_frontend#readme",
+  "devDependencies": {
+    "grunt": "^1.6.1"
+  }
+}
